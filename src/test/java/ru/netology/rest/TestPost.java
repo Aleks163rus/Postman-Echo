@@ -14,7 +14,7 @@ class TestPost {
             given()
                     .baseUri("https://postman-echo.com")
                     .contentType("text/plain; charset=UTF-8")
-                    .body("13 августа") // отправляемые данные (заголовки и query можно выставлять аналогично)
+                    .body("12 августа") // отправляемые данные (заголовки и query можно выставлять аналогично)
 // Выполняемые действия
                     .when()
                     .post("/post")
